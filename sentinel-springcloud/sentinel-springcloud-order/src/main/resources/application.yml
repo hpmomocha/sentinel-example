@@ -1,0 +1,9 @@
+server:
+  port: 7060
+spring:
+  application:
+    name: order-sentinel
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:7001
