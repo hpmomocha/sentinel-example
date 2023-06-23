@@ -7,3 +7,4 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:7001
+      web-context-unify: false  # 默认将调用链路收敛
